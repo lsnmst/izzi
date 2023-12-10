@@ -37,6 +37,7 @@ code {
 }
 
 a {
+  color: rgb(80, 80, 80);
   text-decoration: none;
 }
 
@@ -137,4 +138,20 @@ a:visited {
 .Ojiijicss {
   /* max-height: 50vh !important; */
   overflow: auto;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .containercalendar {
+    flex-direction: column;
+  }
+
+  .menu {
+    min-width: 100%;
+    margin-top: 25%;
+  }
+
+  .calendar {
+    min-width: 100%;
+  }
 }
