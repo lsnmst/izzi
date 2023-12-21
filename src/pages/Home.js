@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Use } from "react";
 import { Link } from "react-router-dom";
 import '../index.css';
 import { MapInteractionCSS } from 'react-map-interaction';
@@ -6,11 +6,13 @@ import { MapInteractionCSS } from 'react-map-interaction';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import SaveAltIcon from '@mui/icons-material/SaveAlt';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+
 import Calendar from './calendar_webtest.png';
+import HomeButton from "./buttons";
 
 
 class Home extends Component {
@@ -36,11 +38,7 @@ class Home extends Component {
 
                     <div className="menu">
                         <div className="about">
-                            Ecological and cosmic calendars are living knowledge systems that continuously incorporate the relationship bodies-cosmo and embody ancestrality. Like any Indigenous people, the Izzi people have their own calendar, which is presented here graphically with the aim of documenting and transmitting their knowledge.<br /> <br />The calendar is drawn with Izzi People cultural leaders through the scientific coordination and documentation work of Dr. Okezie Kelechukwu<br /><br />
-                            <br /><br /><b>RELATED RESEARCH PAPERS</b><hr /><br /><br /><a href="">Okezie Kelechukwu (2024), Ecological and Climate Memory of Yam Cultivation of Izzi People, Southeast Nigeria<br /><SaveAltIcon /></a><br /><br />
-                            <br /> <br /><b>CALENDAR DETAILS</b><hr /><br />
-                            <Link style={{ fontSize: 15 }} to="/Ojiiji"><AddCircleOutlineIcon />  (A) OJIIJI CELEBRATION</Link><br />
-                            <Link style={{ fontSize: 15 }} to="/Otutara"><AddCircleOutlineIcon />  (B) OTUTARA CELEBRATION</Link><br /><br /><br /><br />
+                            <div className="descr">Ecological and cosmic calendars are living knowledge systems that continuously incorporate the relationship bodies-cosmo and embody ancestrality. Like any Indigenous people, the Izzi people have their own calendar, which is presented here graphically with the aim of documenting and transmitting their knowledge.<br /> <br />The calendar is drawn with Izzi People cultural leaders through the scientific coordination and documentation work of Dr. Okezie Kelechukwu<br /><br /></div>
 
                             <Accordion>
                                 <AccordionSummary
@@ -62,7 +60,16 @@ class Home extends Component {
                                     <hr style={{ height: 4, color: "#8dc63f", backgroundColor: "#8dc63f", border: "none" }}></hr>Farming season<br /><br />
                                     <hr style={{ height: 4, color: "#1c75bc", backgroundColor: "#1c75bc", border: "none" }}></hr>Raining season<br /><br />
                                 </AccordionDetails>
-                            </Accordion><hr />
+                            </Accordion>
+
+                            <div className="detail"><br /> <br /><b>CALENDAR DETAILS</b><hr /><br />
+                                <Link style={{ fontSize: 15 }} to="/Ojiiji"><AddCircleOutlineIcon />  (A) OJIIJI CELEBRATION</Link><br />
+                                <Link style={{ fontSize: 15 }} to="/Otutara"><AddCircleOutlineIcon />  (B) OTUTARA CELEBRATION</Link><br /><br /><br /><br />
+                            </div>
+
+                            <div className="related">
+                                <b>NOTICES AND RELATED RESEARCH PAPERS</b><hr /><br /><a href="">Okezie Kelechukwu (2024), Ecological and Climate Memory of Yam Cultivation of Izzi People, Southeast Nigeria<br /><SaveAltIcon /></a><br /><br />
+                            </div>
 
                         </div>
                     </div>
@@ -80,7 +87,9 @@ class Home extends Component {
                         </MapInteractionCSS>
                     </div>
 
-                </div></>
+                    <HomeButton />
+
+            </div ></>
         );
     }
 }

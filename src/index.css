@@ -100,6 +100,14 @@ a:visited {
   line-height: 1.15em;
 }
 
+.button {
+  display: none;
+}
+
+#panel1a-header {
+  border-top: solid 0px;
+}
+
 .calendar {
   margin-top: 5vh;
   width: 70%;
@@ -110,6 +118,8 @@ a:visited {
   /* border: solid 1px #888; */
 }
 
+.calendar>div>div {}
+
 .aoa {
   font-family: 'DM Sans', sans-serif !important;
   background-color: ghostwhite !important;
@@ -119,6 +129,11 @@ a:visited {
   font-family: 'DM Sans', sans-serif !important;
   background-color: ghostwhite !important;
   box-shadow: none !important;
+}
+
+.MuiButtonBase-root {
+  font-family: 'DM Sans', sans-serif !important;
+  color: rgb(80, 80, 80) !important;
 }
 
 .MuiButtonBase-root {
@@ -141,6 +156,7 @@ a:visited {
 }
 
 
+
 @media only screen and (max-width: 1000px) {
   .containercalendar {
     flex-direction: column;
@@ -149,9 +165,31 @@ a:visited {
   .menu {
     min-width: 100%;
     margin-top: 25%;
+    display: none;
   }
 
   .calendar {
     min-width: 100%;
+  }
+
+  .button {
+    display: inline-flex;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 5px;
+    background-color: ghostwhite !important;
+    font-family: 'DM Sans', sans-serif !important;
+    border: solid 2px rgb(80, 80, 80);
+  }
+
+  .about{
+    background-color: ghostwhite !important;
+  }
+
+  .overf {
+    overflow: auto !important;
+    max-height: 90vh;
   }
 }

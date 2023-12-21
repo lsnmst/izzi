@@ -11,6 +11,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
 import Otutaraimg from './otutara.png';
+import { OtutaraButton } from "./buttons";
 
 class Otutara extends Component {
 
@@ -74,6 +75,8 @@ class Otutara extends Component {
                             <img src={Otutaraimg} />
                         </MapInteractionCSS>
                     </div>
+
+                    <OtutaraButton />
 
                 </div></>
         );

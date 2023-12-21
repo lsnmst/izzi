@@ -11,6 +11,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
 import Ojiijimg from './ojiiji.png';
+import { OjiijiButton } from "./buttons";
 
 class Ojiiji extends Component {
 
@@ -75,6 +76,8 @@ class Ojiiji extends Component {
                             <img src={Ojiijimg} />
                         </MapInteractionCSS>
                     </div>
+
+                    <OjiijiButton />
 
                 </div></>
         );
