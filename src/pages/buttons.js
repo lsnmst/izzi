@@ -12,6 +12,9 @@ import SaveAltIcon from '@mui/icons-material/SaveAlt';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import Modal from '@mui/material/Modal';
 
+import Otc from './open_to_collaborate.png';
+
+
 const style = {
     position: 'absolute',
     top: '50%',
@@ -70,7 +73,9 @@ export default function HomeButton() {
                             </div>
 
                             <div className="related">
-                                <b>NOTICES AND RELATED RESEARCH PAPERS</b><hr /><br /><a href="">Okezie Kelechukwu (2024), Ecological and Climate Memory of Yam Cultivation of Izzi People, Southeast Nigeria<br /><SaveAltIcon /></a><br /><br />
+                            <b>NOTICES AND RELATED RESEARCH PAPERS</b><hr />
+                                <br /><img src={Otc} style={{ width:30 }} /><br /><b>Open to Collaborate</b><br />The involved researchers are committed to the development of new modes of collaboration, engagement, and partnership with Indigenous peoples for the care and stewardship of past and future heritage collections. What is this notice? Read more <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>here</u></a>.<br />
+                                <br /><a href="">Okezie Kelechukwu (2024), Ecological and Climate Memory of Yam Cultivation of Izzi People, Southeast Nigeria<br /><SaveAltIcon /></a><br /><br />
                             </div>
 
                         </div>
