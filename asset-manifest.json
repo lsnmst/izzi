@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/izzi/static/css/main.9130835a.css",
-    "main.js": "/izzi/static/js/main.3161e90a.js",
+    "main.js": "/izzi/static/js/main.f7121ba1.js",
     "static/js/787.626563bb.chunk.js": "/izzi/static/js/787.626563bb.chunk.js",
-    "static/media/calendar_webtest.png": "/izzi/static/media/calendar_webtest.1095d4c82406b06496e0.png",
+    "static/media/calendar_webtest.png": "/izzi/static/media/calendar_webtest.96a49e4578ba571a282f.png",
     "static/media/ojiiji.png": "/izzi/static/media/ojiiji.410ba5f80eed0d8b3d60.png",
     "static/media/otutara.png": "/izzi/static/media/otutara.97ddb8e703c51f1b93a2.png",
     "static/media/open_to_collaborate.png": "/izzi/static/media/open_to_collaborate.5bc0767b266c20c583f9.png",
     "index.html": "/izzi/index.html",
     "main.9130835a.css.map": "/izzi/static/css/main.9130835a.css.map",
-    "main.3161e90a.js.map": "/izzi/static/js/main.3161e90a.js.map",
+    "main.f7121ba1.js.map": "/izzi/static/js/main.f7121ba1.js.map",
     "787.626563bb.chunk.js.map": "/izzi/static/js/787.626563bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9130835a.css",
-    "static/js/main.3161e90a.js"
+    "static/js/main.f7121ba1.js"
   ]
 }
