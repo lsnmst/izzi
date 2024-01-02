@@ -13,13 +13,18 @@ import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import Otutaraimg from './otutara.png';
 import { OtutaraButton } from "./buttons";
 
+import Otc from './open_to_collaborate.png';
+import Ss from './tk_ss.png';
+import Tk from './tk.png';
+import Tka from './tk_a.png';
+
 class Otutara extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
             value: {
-                scale: .45,
+                scale: .15,
                 translation: { x: 100, y: 50 }
             }
         };
@@ -37,7 +42,7 @@ class Otutara extends Component {
                     <div className="menu">
                         <div className="about">
 
-                            <div className="titledetail">OTUTARA CELEBRATION</div>
+                            <div className="titledetail">OTUTARA FESTIVAL</div>
 
                             <Accordion defaultExpanded={true}>
                                 <AccordionSummary
@@ -48,14 +53,21 @@ class Otutara extends Component {
                                     <b>LEGEND</b>
                                 </AccordionSummary><hr />
                                 <AccordionDetails className="Ojiijicss">
-                                    1.  Otuara is celebrated on Nkwegu market day (4th day of the week)<br /><br />
-                                    2. The day after Otutara, Ohoke market day (5th day of the week), village is cleaned and wizards, witches and witchcrafts are drived away<br /><br />
+                                The ceremony of the Otutara festival is used to invoke the blessings of the ancestors and parents of the living members of the family.<br /><br /><br />
+                                    1. Otuara is celebrated on <i>Nkwegu</i> market day (4th day of the week), after the new moon is sighted.<br />The eldest member of the family conducts the rites and prayers on behalf of the entire members of the family. A special soup made of from <i>akparata</i> seed is prepared with meat and fish.<br /><hr /><br />
+                                    2. The day after Otutara, <i>Ohoke</i> market day (5th day of the week), is the <i>Okpo</i> day, when village is cleaned and wizards, witches and witchcrafts are drived away<br /><br />
                                 </AccordionDetails>
-                            </Accordion><hr />
+                            </Accordion>
+
+                            <div className="related">
+                                <b>TRADITIONAL KNOWLEDGE LABELS</b><hr />
+                                <br /><img src={Tka} style={{ width: 30 }} /><br /><b>TK Attribution</b><br />Any knowledge and histories referring to the Otutara festival must be attributed to the Izzi people.<br /><br /> 
+                                <br /><img src={Ss} style={{ width: 30 }} /><br /><b>TK Secret / Sacred</b><br />Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.<br />
+                            </div>
 
                             <br /> <br /><b>CALENDAR DETAILS</b><hr /><br />
                             <Link style={{ fontSize: 15 }} to="/"><AddCircleOutlineIcon />  CALENDAR OVERVIEW</Link><br />
-                            <Link style={{ fontSize: 15 }} to="/Ojiiji"><AddCircleOutlineIcon />  (B) OJIIJI CELEBRATION</Link><br /><br /><br /><br />
+                            <Link style={{ fontSize: 15 }} to="/Ojiiji"><AddCircleOutlineIcon />  (B) OJIIJI FESTIVAL</Link><br /><br /><br /><br />
 
                         </div>
                     </div>
