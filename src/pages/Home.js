@@ -8,6 +8,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import MapIcon from '@mui/icons-material/Map';
 import SaveAltIcon from '@mui/icons-material/SaveAlt';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
@@ -42,7 +43,7 @@ class Home extends Component {
 
                     <div className="menu">
                         <div className="about">
-                            <div className="descr">Ecological and cosmic calendars are living knowledge systems that continuously incorporate the relationship bodies-cosmo and embody ancestrality. Like any Indigenous people, the Izzi people have their own calendar, which is presented here graphically with the aim of documenting and transmitting their knowledge.<br /> <br />The calendar is drawn with Izzi People cultural leaders through the scientific coordination and documentation work of Dr. Okezie Kelechukwu. Instructions on how to read the calendar are given in the legend.<br /><br /></div>
+                            <div className="descr">Ecological and cosmic calendars are living knowledge systems that continuously incorporate the body-cosmos relationship that stems from generations of experiential knowledge and shared insights within community contexts. These are grounded in the understanding of time and cosmological phenomenologies in relation to ecological processes and the movement of celestial bodies.<br />Like any Indigenous people, the Izzi people have their own calendar, which is presented here graphically with the aim of documenting and transmitting their knowledge.<br /> <br />The calendar is drawn with Izzi People cultural leaders through the scientific coordination and documentation work of Dr. Okezie Kelechukwu. Instructions on how to read the calendar are given in the legend.<br /><br /></div>
 
                             <Accordion>
                                 <AccordionSummary
@@ -74,8 +75,12 @@ class Home extends Component {
                             </Accordion>
 
                             <div className="detail"><br /> <br /><b>CALENDAR DETAILS</b><hr /><br />
-                                <Link style={{ fontSize: 15 }} to="/Ojiiji"><AddCircleOutlineIcon />  (A) OJIIJI FESTIVAL</Link><br />
-                                <Link style={{ fontSize: 15 }} to="/Otutara"><AddCircleOutlineIcon />  (B) OTUTARA FESTIVAL</Link><br /><br /><br /><br />
+                                <Link style={{ fontSize: 14 }} to="/Ojiiji"><AddCircleOutlineIcon />  (A) OJIIJI FESTIVAL</Link><br />
+                                <Link style={{ fontSize: 14 }} to="/Otutara"><AddCircleOutlineIcon />  (B) OTUTARA FESTIVAL</Link><br /><br /><br /><br />
+                            </div>
+
+                            <div className="detail"><br /> <br /><b>MAPS</b><hr /><br />
+                                <Link to="/Language"  target="_blank"><MapIcon style={{ width: 20 }} />  Boundaries of the Izzi language-speaking areas</Link><br /><br /><br /><br />
                             </div>
 
                             <div className="related">
