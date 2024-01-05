@@ -27,7 +27,7 @@ function Language() {
                 initialViewState={{
                     latitude: 6.456524613609937,
                     longitude: 8.137934464564653,
-                    zoom: 9
+                    zoom: 6.5
                 }}
                 projection={"globe"}
                 mapStyle="mapbox://styles/comuni-dados/ck87kqz1v0hlt1iptdomrfl1y"
