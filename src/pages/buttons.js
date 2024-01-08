@@ -190,7 +190,7 @@ export function OtutaraButton() {
                                     <b>LEGEND</b>
                                 </AccordionSummary><hr />
                                 <AccordionDetails className="Ojiijicss">
-                                    The ceremony of the Otutara festival is used to invoke the blessings of the ancestors and parents of the living members of the family.<br /><br /><br />
+                                    The ceremony of the Otutara festival is used to invoke the blessings of the ancestors and parents of the living members of the family. Otutara is done twice in year.<br />The first one called the lesser Otutara is done between March and April and it is known as the <i>utara onanwu</i>. It is more of an immediate family affair.<br />The main Otutara is done in September and is mainly a two day event. The feeding and slaughter of animals to feed late father and mother and ancestors is done on the first day while the second day is more of festival and merriment where masquerades are displayed, cooking competition and recognition of best cook.<br /><br /><br />
                                     1. Otuara is celebrated on <i>Nkwegu</i> market day (4th day of the week), after the new moon is sighted.<br />The eldest member of the family conducts the rites and prayers on behalf of the entire members of the family. A special soup made of from <i>akparata</i> seed is prepared with meat and fish.<br /><hr /><br />
                                     2. The day after Otutara, <i>Ohoke</i> market day (5th day of the week), is the <i>Okpo</i> day, when village is cleaned and wizards, witches and witchcrafts are drived away<br /><br />
                                 </AccordionDetails>
