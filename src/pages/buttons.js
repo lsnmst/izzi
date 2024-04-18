@@ -85,14 +85,14 @@ export default function HomeButton() {
                             </div>
 
                             <div className="detail"><br /> <br /><b>MAPS</b><hr /><br />
-                                <Link to="/Language"  target="_blank"><MapIcon style={{ width: 20 }} />  Boundaries of the Izzi language-speaking areas</Link><br /><br /><br /><br />
+                                <Link to="/Language" target="_blank"><MapIcon style={{ width: 20 }} />  Boundaries of the Izzi language-speaking areas</Link><br /><br /><br /><br />
                             </div>
 
                             <div className="related">
                                 <b>NOTICES AND RELATED RESEARCH PAPERS</b><hr />
                                 <br /><img src={Otc} style={{ width: 30 }} /><br /><b>Open to Collaborate</b><br />The involved researchers are committed to the development of new modes of collaboration, engagement, and partnership with Indigenous peoples for the care and stewardship of past and future heritage collections. What is this notice? Read more <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>here</u></a>.<br />
                                 <br /><img src={Tk} style={{ width: 30 }} /><br /><b>Traditional Knowledge</b><br />The TK (Traditional Knowledge) Notice is a visible notification that there are accompanying cultural rights and responsabilities that need further attention for any future sharing and use of this material.<br /><br />Local Contexts Project ID : 6914414e-a315-4e5c-8b2f-839de7d93509<br /><hr />
-                                <br /><a href="">Okezie Kelechukwu (2024), Ecological and Climate Memory of Yam Cultivation of Izzi People, Southeast Nigeria<br /><SaveAltIcon /></a><br /><br />
+                                <br /><a href="">Okezie Kelechukwu, Alessandro Musetta (2024), Ecological and Climate Memory of Yam Cultivation of Izzi People, Southeast Nigeria<br />{/* <SaveAltIcon /> */}</a><br /><br />
                             </div>
 
                         </div>
