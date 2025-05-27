@@ -13,6 +13,7 @@ import SaveAltIcon from '@mui/icons-material/SaveAlt';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
 import Calendar from './calendar_webtest.png';
+import Schema from './schema.png';
 import HomeButton from "./buttons";
 import Thirteen from './13.png';
 import Otc from './open_to_collaborate.png';
@@ -53,9 +54,10 @@ class Home extends Component {
                                 >
                                     <b>HOW TO READ AND LEGEND</b>
                                 </AccordionSummary><hr />
-                                <AccordionDetails style={{backgroundColor:"#d9dddc50"}}>
-                                    Izzi people have 13 calendar months and five weekdays, which are market names (<i>Azua, Onuvu, Okpo, Nkwegu</i>, and <i>Ohoke</i>)<br /><br /><img src={Thirteen} style={{ width: 90 }} /><br /><br /><br />
-                                    1. Plants drop their leaves and sparrows (<i>Obe, Karaka</i>) appear. This is evidence the farming season has arrived.<br /><hr /><br />
+                                <AccordionDetails style={{ backgroundColor: "#d9dddc50" }}>
+                                    Distance from the centre defines the cosmological relationship. The closer the event/practice/manifestation is represented to the centre, the more it relates to the beings of the underworld; the further away it is, the stronger the relationship with the beings of the sky/cosmos. At the centre of the calendar is the pot that Izzi view as the Source of Life.<br /><br /><img src={Schema} style={{ width: 200 }} /><br /><br /><br />
+                                    Izzi people have 13 calendar months and five weekdays, which are market names (<i>Azua, Onuvu, Okpo, Nkwegu</i>, and <i>Ohoke</i>).<br /><br /><img src={Thirteen} style={{ width: 200 }} /><br /><br /><br />
+                                    For ease of understanding, please read the calendar clockwise from the beginning of the farming season (October):<br /><br /><br />1. Plants drop their leaves and sparrows (<i>Obe, Karaka</i>) appear. This is evidence the farming season has arrived.<br /><hr /><br />
                                     2. Before planting, farmers slash land and allow the leaves to remain in the soil. Leaf droppings serve for mulching and manures.<br /><hr /><br />
                                     3. Welding the special large hoe known as the <i>Abakaliki hoe</i>, farmers pile soil into large mounds according to soil characteristics to grow yam, the region's leading staple food. Yam mounds in swampy areas could be high as 118 cm and have a circumference of about 540 cm.<br /><hr /><br />
                                     4. Mounds are sown with <i>Diascorrea spp</i>. Yams are intercropped with <i>Capsicum Spp</i> and <i>Colocasia Xanthosoma</i>, known locally as <i>Ede</i>. More recently, <i>Manihot spp</i> has also been introduced for intecropping.<br /><hr /><br />
@@ -65,25 +67,25 @@ class Home extends Component {
                                     <Link to="/Otutara">B. Otutara festival <u>(open the page with details)</u></Link><br /><hr /><br />
                                     C. Okemini is a peace festival, aiming to bumper harvest and to ask for protection and prosperity. Masquerades and cultural war dances are performed.<br /><hr /><br />
                                     D. The Okpuruke fishing festival takes place at the natural lake of Okpuru uke, near Inyimagu. Rituals are performed involving the women living in the nine villages that constitute the Inyimagu community.
-                                    <br /><br /><p style={{border:"1px solid #88888850", padding:"5px"}}><img src={Ss} style={{ width: 30 }} /><br />TK Secret / Sacred<br /><p style={{ fontSize: 12, lineHeight: 1.15 }}>Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.</p></p><hr /><br />
+                                    <br /><br /><p style={{ border: "1px solid #88888850", padding: "5px" }}><img src={Ss} style={{ width: 30 }} /><br />TK Secret / Sacred<br /><p style={{ fontSize: 12, lineHeight: 1.15 }}>Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.</p></p><hr /><br />
                                     E. During the Ogba Aji festival of the Inyimegu community, gifts are exchanged, cultural dances and masquerade are performed.<br /><hr /><br />
                                     F. During the Ikpuru achi festival that takes place in Nkaliki Achara unuhu, traditional rain making and dances are performed, while fishing skills are demonstrated.
-                                    <br /><br /><p style={{border:"1px solid #88888850", padding:"5px"}}><img src={Ss} style={{ width: 30 }} /><br />TK Secret / Sacred<br /><p style={{ fontSize: 12, lineHeight: 1.15 }}>Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.</p></p><br /><br />
+                                    <br /><br /><p style={{ border: "1px solid #88888850", padding: "5px" }}><img src={Ss} style={{ width: 30 }} /><br />TK Secret / Sacred<br /><p style={{ fontSize: 12, lineHeight: 1.15 }}>Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.</p></p><br /><br />
                                     <hr style={{ height: 4, color: "#8dc63f", backgroundColor: "#8dc63f", border: "none" }}></hr>Farming season<br /><br />
                                     <hr style={{ height: 4, color: "#1c75bc", backgroundColor: "#1c75bc", border: "none" }}></hr>Raining season<br /><br />
                                 </AccordionDetails>
                             </Accordion><br /><br />
 
-                            <div className="detail" style={{border:"1px solid #88888850", padding:"5px", marginBottom:"5px"}}><br /> <br /><b>CALENDAR DETAILS</b><hr /><br />
+                            <div className="detail" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}><br /> <br /><b>CALENDAR DETAILS</b><hr /><br />
                                 <Link style={{ fontSize: 14 }} to="/Ojiiji"><AddCircleOutlineIcon />  (A) OJIIJI FESTIVAL</Link><br />
                                 <Link style={{ fontSize: 14 }} to="/Otutara"><AddCircleOutlineIcon />  (B) OTUTARA FESTIVAL</Link><br /><br /><br /><br />
                             </div>
 
-                            <div className="detail" style={{border:"1px solid #88888850", padding:"5px", marginBottom:"5px"}}><br /> <br /><b>MAPS</b><hr /><br />
+                            <div className="detail" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}><br /> <br /><b>MAPS</b><hr /><br />
                                 <Link to="/Language" target="_blank"><MapIcon style={{ width: 20 }} />  Boundaries of the Izzi language-speaking areas</Link><br /><br /><br /><br />
                             </div>
 
-                            <div className="related" style={{border:"1px solid #88888850", padding:"5px", marginBottom:"5px"}}><br /> <br />
+                            <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}><br /> <br />
                                 <b>NOTICES AND RELATED RESEARCH PAPERS</b><hr />
                                 <br /><img src={Otc} style={{ width: 30 }} /><br /><b>Open to Collaborate</b><br />The involved researchers are committed to the development of new modes of collaboration, engagement, and partnership with Indigenous peoples for the care and stewardship of past and future heritage collections. What is this notice? Read more <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>here</u></a>.<br />
                                 <br /><img src={Tk} style={{ width: 30 }} /><br /><b>Traditional Knowledge</b><br />The TK (Traditional Knowledge) Notice is a visible notification that there are accompanying cultural rights and responsibilities that need further attention for any future sharing and use of this material.<br /><br />Local Contexts Project ID : 6914414e-a315-4e5c-8b2f-839de7d93509<br /><hr />

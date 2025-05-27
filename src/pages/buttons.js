@@ -14,6 +14,7 @@ import Modal from '@mui/material/Modal';
 import MapIcon from '@mui/icons-material/Map';
 
 import Thirteen from './13.png';
+import Schema from './schema.png';
 import Otc from './open_to_collaborate.png';
 import Ss from './tk_ss.png';
 import Tk from './tk.png';
@@ -59,8 +60,9 @@ export default function HomeButton() {
                                     <b>HOW TO READ AND LEGEND</b>
                                 </AccordionSummary><hr />
                                 <AccordionDetails style={{backgroundColor:"#d9dddc50"}}>
-                                    Izzi people have 13 calendar months and five weekdays, which are market names (<i>Azua, Onuvu, Okpo, Nkwegu</i>, and <i>Ohoke</i>)<br /><br /><img src={Thirteen} style={{ width: 90 }} /><br /><br /><br />
-                                    1. Plants drop their leaves and sparrows (<i>Obe, Karaka</i>) appear. This is evidence the farming season has arrived.<br /><hr /><br />
+                                    Distance from the centre defines the cosmological relationship. The closer the event/practice/manifestation is represented to the centre, the more it relates to the beings of the underworld; the further away it is, the stronger the relationship with the beings of the sky/cosmos. At the centre of the calendar is the pot that Izzi view as the Source of Life.<br /><br /><img src={Schema} style={{ width: 200 }} /><br /><br /><br />
+                                    Izzi people have 13 calendar months and five weekdays, which are market names (<i>Azua, Onuvu, Okpo, Nkwegu</i>, and <i>Ohoke</i>).<br /><br /><img src={Thirteen} style={{ width: 200 }} /><br /><br /><br />
+                                    For ease of understanding, please read the calendar clockwise from the beginning of the farming season (October):<br /><br /><br />1. Plants drop their leaves and sparrows (<i>Obe, Karaka</i>) appear. This is evidence the farming season has arrived.<br /><hr /><br />
                                     2. Before planting, farmers slash land and allow the leaves to remain in the soil. Leaf droppings serve for mulching and manures.<br /><hr /><br />
                                     3. Welding the special large hoe known as the <i>Abakaliki hoe</i>, farmers pile soil into large mounds according to soil characteristics to grow yam, the region's leading staple food. Yam mounds in swampy areas could be high as 118 cm and have a circumference of about 540 cm.<br /><hr /><br />
                                     4. Mounds are sown with <i>Diascorrea spp</i>. Yams are intercropped with <i>Capsicum Spp</i> and <i>Colocasia Xanthosoma</i>, known locally as <i>Ede</i>. More recently, <i>Manihot spp</i> has also been introduced for intecropping.<br /><hr /><br />
