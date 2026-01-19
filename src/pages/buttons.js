@@ -59,7 +59,7 @@ export default function HomeButton() {
                                 >
                                     <b>HOW TO READ AND LEGEND</b>
                                 </AccordionSummary><hr />
-                                <AccordionDetails style={{backgroundColor:"#d9dddc50"}}>
+                                <AccordionDetails style={{ backgroundColor: "#d9dddc50" }}>
                                     Distance from the centre defines the cosmological relationship. The closer the event/practice/manifestation is represented to the centre, the more it relates to the beings of the underworld; the further away it is, the stronger the relationship with the beings of the sky/cosmos. At the centre of the calendar is the pot that Izzi view as the Source of Life.<br /><br /><img src={Schema} style={{ width: 200 }} /><br /><br /><br />
                                     Izzi people have 13 calendar months and five weekdays, which are market names (<i>Azua, Onuvu, Okpo, Nkwegu</i>, and <i>Ohoke</i>).<br /><br /><img src={Thirteen} style={{ width: 200 }} /><br /><br /><br />
                                     For ease of understanding, please read the calendar clockwise from the beginning of the farming season (October):<br /><br /><br />1. Plants drop their leaves and sparrows (<i>Obe, Karaka</i>) appear. This is evidence the farming season has arrived.<br /><hr /><br />
@@ -72,10 +72,12 @@ export default function HomeButton() {
                                     <Link to="/Otutara">B. Otutara festival <u>(open the page with details)</u></Link><br /><hr /><br />
                                     C. Okemini is a peace festival, aiming to bumper harvest and to ask for protection and prosperity. Masquerades and cultural war dances are performed.<br /><hr /><br />
                                     D. The Okpuruke fishing festival takes place at the natural lake of Okpuru uke, near Inyimagu. Rituals are performed involving the women living in the nine villages that constitute the Inyimagu community.
-                                    <br /><br /><p style={{border:"1px solid #88888850", padding:"5px"}}><img src={Ss} style={{ width: 30 }} /><br />TK Secret / Sacred<br /><p style={{ fontSize: 12, lineHeight: 1.15 }}>Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.</p></p><hr /><br />
+                                    <br /><br />
+                                    {/* <p style={{border:"1px solid #88888850", padding:"5px"}}><img src={Ss} style={{ width: 30 }} /><br />TK Secret / Sacred<br /><p style={{ fontSize: 12, lineHeight: 1.15 }}>Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.</p></p><hr /><br /> */}
                                     E. During the Ogba Aji festival of the Inyimegu community, gifts are exchanged, cultural dances and masquerade are performed.<br /><hr /><br />
                                     F. During the Ikpuru achi festival that takes place in Nkaliki Achara unuhu, traditional rain making and dances are performed, while fishing skills are demonstrated.
-                                    <br /><br /><p style={{border:"1px solid #88888850", padding:"5px"}}><img src={Ss} style={{ width: 30 }} /><br />TK Secret / Sacred<br /><p style={{ fontSize: 12, lineHeight: 1.15 }}>Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.</p></p><br /><br />
+                                    <br /><br />
+                                    {/* <p style={{border:"1px solid #88888850", padding:"5px"}}><img src={Ss} style={{ width: 30 }} /><br />TK Secret / Sacred<br /><p style={{ fontSize: 12, lineHeight: 1.15 }}>Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.</p></p><br /><br /> */}
                                     <hr style={{ height: 4, color: "#8dc63f", backgroundColor: "#8dc63f", border: "none" }}></hr>Farming season<br /><br />
                                     <hr style={{ height: 4, color: "#1c75bc", backgroundColor: "#1c75bc", border: "none" }}></hr>Raining season<br /><br />
                                 </AccordionDetails>
@@ -147,8 +149,8 @@ export function OjiijiButton() {
 
                             <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}>
                                 <b>TRADITIONAL KNOWLEDGE LABELS</b><hr />
-                                <br /><img src={Tka} style={{ width: 30 }} /><br /><b>TK Attribution</b><br />Any knowledge and histories referring to the Ojiiji festival, including the masquerades and the <i>okweregede</i> war dance must be attributed to the Izzi people.<br /><br />
-                                <br /><img src={Ss} style={{ width: 30 }} /><br /><b>TK Secret / Sacred</b><br />Specific knowledge linked to festival rituals and the geographical location of the shrines are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.<br />
+                                {/* <br /><img src={Tka} style={{ width: 30 }} /><br /><b>TK Attribution</b><br />Any knowledge and histories referring to the Ojiiji festival, including the masquerades and the <i>okweregede</i> war dance must be attributed to the Izzi people.<br /><br />
+                                <br /><img src={Ss} style={{ width: 30 }} /><br /><b>TK Secret / Sacred</b><br />Specific knowledge linked to festival rituals and the geographical location of the shrines are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.<br /> */}
                             </div>
 
                             <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}>
@@ -201,11 +203,11 @@ export function OtutaraButton() {
                                 </AccordionDetails>
                             </Accordion>
 
-                            <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}>
+                            {/* <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}>
                                 <b>TRADITIONAL KNOWLEDGE LABELS</b><hr />
                                 <br /><img src={Tka} style={{ width: 30 }} /><br /><b>TK Attribution</b><br />Any knowledge and histories referring to the Otutara festival must be attributed to the Izzi people.<br /><br />
                                 <br /><img src={Ss} style={{ width: 30 }} /><br /><b>TK Secret / Sacred</b><br />Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.<br />
-                            </div>
+                            </div> */}
 
                             <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}>
                                 <br /> <br /><b>CALENDAR DETAILS</b><hr /><br />

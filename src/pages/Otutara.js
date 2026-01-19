@@ -59,11 +59,11 @@ class Otutara extends Component {
                                 </AccordionDetails>
                             </Accordion>
 
-                            <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}>
+                            {/* <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}>
                                 <b>TRADITIONAL KNOWLEDGE LABELS</b><hr />
                                 <br /><img src={Tka} style={{ width: 30 }} /><br /><b>TK Attribution</b><br />Any knowledge and histories referring to the Otutara festival must be attributed to the Izzi people.<br /><br />
                                 <br /><img src={Ss} style={{ width: 30 }} /><br /><b>TK Secret / Sacred</b><br />Specific knowledge linked to festival rituals are considered sacred, secret or private, and only certain people or families can and should have access to them. This label indicates that there is additional knowledge about a certain subject that cannot be shared on the website.<br />
-                            </div>
+                            </div> */}
 
                             <div className="related" style={{ border: "1px solid #88888850", padding: "5px", marginBottom: "5px" }}>
                                 <br /> <br /><b>CALENDAR DETAILS</b><hr /><br />
